@@ -7,7 +7,7 @@ namespace Delegates
 
         private static void Main()
         {
-            StringSplitOptions strOp;
+            Action<string> strOp; //Variavel do delegate
 
             Joiner joiner = new Joiner("String In StrConcat");
 
